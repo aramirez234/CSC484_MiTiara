@@ -1,0 +1,124 @@
+.flying-caballos-ranch {
+  margin: 0;
+  align-self: stretch;
+  height: 111px;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.rodriguez-vineyard1 {
+  color: var(--color-black);
+}
+.offered-by-rodriguez-container1 {
+  width: 100%;
+}
+.offered-by-rodriguez-container {
+  width: 488px;
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.star-fill-icon4 {
+  height: 40px;
+  width: 45px;
+  position: relative;
+}
+.label9 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.rating6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--font-size-11xl);
+  color: var(--neutral-black);
+  font-family: var(--f6-heavy-1200);
+}
+.intro-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-19xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-gray-600);
+}
+.listing-intro {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  max-width: 100%;
+}
+.listing-info-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px var(--padding-52xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+
+@media screen and (max-width: 1625px) {
+  .flying-caballos-ranch {
+    font-size: var(--font-size-8xl);
+    line-height: 40px;
+  }
+
+  .offered-by-rodriguez-container {
+    font-size: var(--body-text-size);
+    line-height: 30px;
+  }
+
+  .label9 {
+    font-size: var(--body-large-size);
+    line-height: 12px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .flying-caballos-ranch {
+    font-size: var(--font-size-17xl);
+    line-height: 54px;
+  }
+
+  .label9 {
+    font-size: var(--subheading-size);
+    line-height: 16px;
+  }
+
+  .intro-stats {
+    flex-wrap: wrap;
+  }
+
+  .listing-intro {
+    height: auto;
+  }
+}

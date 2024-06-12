@@ -1,0 +1,109 @@
+.user-avatars-icon {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.mayra-gonzales {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.june-2024 {
+  align-self: stretch;
+  height: 25px;
+  position: relative;
+  font-size: var(--body-large-size);
+  display: inline-block;
+}
+.reviewer-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.star-filled-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.rating-star-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0px 0px;
+}
+.i-had-a-fantastic-experience-w {
+  display: block;
+}
+.span4 {
+  color: var(--color-gray-300);
+}
+.read-full-review {
+  display: block;
+  color: var(--color-mediumslateblue);
+}
+.i-had-a-container {
+  margin: 0;
+  align-self: stretch;
+  height: 180px;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  display: inline-block;
+  color: var(--color-black);
+}
+.review-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  min-width: 227px;
+  max-width: 100%;
+}
+.review-items {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 331px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--grey-600);
+  font-family: var(--body-large);
+}
+
+@media screen and (max-width: 1625px) {
+  .review-items {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mayra-gonzales {
+    font-size: var(--small-text-size);
+  }
+
+  .i-had-a-container {
+    font-size: var(--body-large-size);
+  }
+
+  .review-items {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

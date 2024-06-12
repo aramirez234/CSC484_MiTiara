@@ -1,0 +1,111 @@
+.path-icon {
+  width: 25px;
+  height: 22px;
+  position: relative;
+}
+.icon-top-right-swappable-for {
+  height: 45px;
+  width: 45px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-1000);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-7xs);
+}
+.image {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-xs-9) var(--padding-2xs) var(--padding-174xl-1);
+  background-image: url("/public/image1@3x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.header {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 127px;
+}
+.star-fill-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.rating2 {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+  font-size: var(--f6-heavy-1200-size);
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--f5-heavy-1200-size);
+}
+.price {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+}
+.price1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 300;
+}
+.content-adjust-spacing-around {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  gap: var(--gap-3xs);
+}
+.listing-card {
+  box-shadow: var(--tight-elevation-3);
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--f6-heavy-1200-size);
+  color: var(--neutral-black);
+  font-family: var(--f6-heavy-1200);
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    font-size: var(--body-large-size);
+    line-height: 19px;
+  }
+
+  .heading {
+    flex-wrap: wrap;
+  }
+}

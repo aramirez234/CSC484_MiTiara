@@ -1,0 +1,292 @@
+.untitled-drawing-12 {
+  height: 49.1px;
+  width: 220px;
+  position: relative;
+  object-fit: contain;
+  cursor: pointer;
+}
+.service {
+  width: 224px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+}
+.label10 {
+  width: 185px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-family: var(--small-text);
+  font-size: var(--body-text-size);
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0;
+}
+.field7 {
+  align-self: stretch;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-base);
+}
+.input-field-with-label5 {
+  width: 269px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.location1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.label11 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.field8 {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-4xs) var(--padding-8xs)
+    var(--padding-mini);
+  white-space: nowrap;
+  font-size: var(--body-text-size);
+  color: var(--color-gray-200);
+}
+.input-field-with-label6 {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.date1 {
+  width: 193px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+}
+.label12 {
+  width: 119px;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-family: var(--small-text);
+  font-size: var(--body-text-size);
+  background-color: transparent;
+  height: 30px;
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0;
+}
+.field9 {
+  flex: 1;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-base);
+}
+.search-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.button-new {
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-13xl);
+}
+.input-field-with-button1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-11xs);
+  gap: var(--gap-base);
+}
+.date-filter {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.search-bar1 {
+  width: 806px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.globe-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.label13 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  color: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.chevron-down-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.dropdown2 {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) var(--padding-mini);
+  gap: var(--gap-base);
+}
+.loginsign-up {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  white-space: nowrap;
+}
+.nav-list-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  gap: var(--gap-3xs);
+  color: var(--grey-400);
+  font-family: var(--body-large);
+}
+.label14 {
+  text-decoration: none;
+  height: 22px;
+  position: relative;
+  font-size: var(--small-text-size);
+  font-family: var(--body-large);
+  color: var(--neutral-white);
+  text-align: left;
+  display: inline-block;
+}
+.button-primary1 {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-5xs) var(--padding-base);
+  background-color: var(--color-black);
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button-primary1:hover {
+  background-color: var(--color-darkslategray-200);
+}
+.nav-menu1 {
+  width: 486px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  max-width: 100%;
+  color: var(--color-gray-200);
+}
+.nav-header1 {
+  align-self: stretch;
+  background-color: var(--neutral-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-11xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+
+@media screen and (max-width: 1625px) {
+  .nav-menu1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .input-field-with-label5 {
+    display: none;
+  }
+
+  .search-bar1 {
+    width: 537px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .label11 {
+    display: none;
+  }
+}

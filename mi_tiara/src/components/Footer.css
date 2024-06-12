@@ -1,0 +1,177 @@
+.divider1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider-wrapper {
+  align-self: stretch;
+  height: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-2xl) 0px var(--padding-xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.wwwmitiaracom1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.website-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-xs);
+}
+.buttons-icon3 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  object-fit: cover;
+  min-height: 40px;
+}
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.website-info-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.footer-info-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+}
+.venuelabel2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.photovideo {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.info-links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  min-width: 122px;
+}
+.info-links-parent {
+  width: 454px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-100);
+}
+.footer-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.footer-links {
+  width: 1314px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  max-width: 100%;
+}
+.are-you-a-vendor-group {
+  width: 187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--small-text-size);
+  color: var(--color-darkslategray-100);
+}
+.footer1 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-49xl) var(--padding-11xl);
+  box-sizing: border-box;
+  gap: var(--gap-60xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--subheading-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
+
+@media screen and (max-width: 1625px) {
+  .footer-info {
+    flex-wrap: wrap;
+  }
+
+  .footer-links {
+    gap: var(--gap-4xl);
+  }
+
+  .footer1 {
+    gap: var(--gap-20xl);
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .footer1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .wwwmitiaracom1 {
+    font-size: var(--f6-heavy-1200-size);
+    line-height: 29px;
+  }
+
+  .info-links-parent {
+    flex-wrap: wrap;
+    gap: var(--gap-21xl);
+  }
+
+  .footer1 {
+    gap: var(--gap-xl);
+  }
+}

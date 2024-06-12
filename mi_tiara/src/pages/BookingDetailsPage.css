@@ -1,0 +1,854 @@
+.heading-2 {
+  margin: 0;
+  width: 447px;
+  position: relative;
+  font-size: inherit;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.button-go-to-previous-month {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  min-height: 38px;
+}
+.august-2024 {
+  position: relative;
+  line-height: 24px;
+}
+.month-name-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0px 0px;
+}
+.button-go-to-previous-month1 {
+  height: 38px;
+  width: 38px;
+  position: relative;
+  border-radius: var(--br-lgi);
+  object-fit: contain;
+  min-height: 38px;
+}
+.button-go-to-previous-month-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 26px;
+}
+.month-label-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px var(--padding-xl);
+}
+.cell-sun {
+  width: 46px;
+  position: absolute;
+  margin: 0 !important;
+  top: -14px;
+  left: 17.8px;
+  line-height: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell-mon {
+  width: 42px;
+  position: absolute;
+  margin: 0 !important;
+  top: -14px;
+  left: 83.8px;
+  line-height: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell-tue {
+  position: absolute;
+  margin: 0 !important;
+  top: -14px;
+  left: 145.8px;
+  line-height: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell-wed {
+  width: 44px;
+  position: absolute;
+  margin: 0 !important;
+  top: -14px;
+  right: 180.2px;
+  line-height: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell-thu {
+  width: 37px;
+  position: absolute;
+  margin: 0 !important;
+  top: -14px;
+  right: 123.2px;
+  line-height: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell-fri {
+  width: 37px;
+  position: absolute;
+  margin: 0 !important;
+  top: -14px;
+  right: 66.2px;
+  line-height: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cell-sat {
+  position: absolute;
+  margin: 0 !important;
+  top: -14px;
+  right: 17.9px;
+  line-height: 12px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gridcell-button-monday-ju {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  display: none;
+  z-index: 7;
+}
+.div {
+  width: 29px;
+  position: relative;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.gridcell-button-wednesday {
+  flex: 0.6818;
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-6xs) var(--padding-2xs-5);
+  box-sizing: border-box;
+  min-width: 29px;
+  color: var(--color-gray-700);
+}
+.b {
+  position: relative;
+  line-height: 24px;
+  font-weight: 700;
+}
+.wrapper {
+  margin-left: -2.300000000000182px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+}
+.gridcell-button-wednesday2 {
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-12xs-5);
+}
+.frame {
+  margin-left: -2.300000000000182px;
+  flex: 1;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+}
+.gridcell-button-wednesday4 {
+  flex: 1;
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-12xs-5);
+  box-sizing: border-box;
+  min-width: 29px;
+}
+.frame-div {
+  margin-left: -2.2999999999999545px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+}
+.week-one {
+  width: 339px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.calendar-weeks {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--body-text-size);
+  color: var(--color-black);
+}
+.day-buttons-week-two {
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  color: var(--color-black);
+}
+.day-buttons-week-two1 {
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini);
+  color: var(--color-black);
+}
+.day-buttons-week-two3 {
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  color: var(--color-black);
+}
+.day-buttons-week-two4 {
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  color: var(--color-black);
+}
+.day-buttons-week-two5 {
+  width: 44px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  color: var(--neutral-white);
+}
+.wrapper1 {
+  margin-left: -2.2999999999999545px;
+  border-radius: var(--br-26xl);
+  background-color: var(--color-royalblue);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.gridcell-button-wednesday6 {
+  width: 44px;
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-12xs-5);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.gridcell-button-wednesday7 {
+  width: 44px;
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-6xs) var(--padding-2xs-5);
+  box-sizing: border-box;
+}
+.week-two {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 18px 14.3px;
+  min-height: 168px;
+  flex-shrink: 0;
+  font-size: var(--body-text-size);
+  color: var(--color-gray-700);
+}
+.gridcell-button-wednesday21 {
+  flex: 1;
+  border-radius: var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs-5) var(--padding-6xs) var(--padding-2xs-5);
+}
+.week-three {
+  width: 221px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  flex-shrink: 0;
+  font-size: var(--body-text-size);
+  color: var(--color-gray-700);
+}
+.gridcell-button-wednesday25 {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  display: none;
+  z-index: 11;
+}
+.gridcell-button-wednesday26 {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  display: none;
+  z-index: 12;
+}
+.gridcell-button-wednesday27 {
+  width: 44px;
+  height: 44px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  display: none;
+  z-index: 13;
+}
+.table-select-a-day {
+  height: 352px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) var(--padding-smi) var(--padding-49xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 28px;
+  max-width: 100%;
+}
+.calendar-grid {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-mini);
+}
+.time-zone {
+  width: 123px;
+  position: relative;
+  line-height: 22.4px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+.vector-icon {
+  position: absolute;
+  top: 6px;
+  left: 269px;
+  width: 7.7px;
+  height: 4.8px;
+  z-index: 1;
+}
+.container2 {
+  position: absolute;
+  top: 5.5px;
+  left: 0px;
+  width: 277px;
+  height: 21px;
+  overflow: hidden;
+}
+.icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+.time-zone-dropdown-icon {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  width: 277px;
+  height: 26.5px;
+}
+.pacific-time- {
+  position: absolute;
+  top: 7px;
+  left: 29px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 246px;
+  height: 21px;
+  z-index: 1;
+}
+.icon1 {
+  position: absolute;
+  top: 13.1px;
+  left: 320px;
+  width: 8px;
+  height: 9px;
+  overflow: hidden;
+  display: none;
+}
+.container1 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  border-radius: 18px;
+  text-align: center;
+}
+.time-zone-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.time-zone-container-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.continue {
+  position: relative;
+  font-size: var(--small-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--small-text);
+  color: var(--neutral-white);
+  text-align: left;
+}
+.primary-button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-5xs) var(--padding-xl);
+  background-color: var(--color-black);
+  flex: 1;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.primary-button:hover {
+  background-color: var(--color-darkslategray-200);
+}
+.button-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-51xl);
+}
+.previous-month-buttons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.arrowright-icon {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  border-radius: 2.25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  display: none;
+}
+.cancel-booking {
+  position: relative;
+  font-size: var(--body-large-size);
+  font-family: var(--body-large);
+  color: var(--color-black);
+  text-align: left;
+}
+.arrowright-icon1 {
+  height: 18px;
+  width: 18px;
+  position: relative;
+  border-radius: 2.25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xs-5) var(--padding-xl);
+  background-color: var(--color-tomato);
+  border-radius: var(--br-9xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.previous-month-button-containe {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+  max-width: 100%;
+}
+.month-navigation {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0px 0px;
+  box-sizing: border-box;
+  min-width: 276px;
+  max-width: 100%;
+}
+.heading-3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.venue-open-to {
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+}
+.label {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  font-family: var(--small-text);
+  font-size: var(--font-size-6xl);
+  background-color: transparent;
+  height: 38px;
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  min-width: 158px;
+  white-space: nowrap;
+  padding: 0;
+}
+.field {
+  align-self: stretch;
+  box-shadow: var(--button-shadow);
+  border-radius: var(--br-5xs);
+  background-color: #dedede;
+  border: 1px solid var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini) var(--padding-9xs);
+}
+.input-field-with-label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.start-and-end {
+  color: var(--color-black);
+}
+.start-and-end-container {
+  align-self: stretch;
+  height: 60px;
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  color: #f80808;
+}
+.container3 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px var(--padding-2xs) 117px;
+  gap: 29px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+}
+.heading-3-saturday-june-15-parent {
+  width: 318px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  min-width: 318px;
+  font-size: var(--font-size-11xl);
+}
+.calendar-navigation {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  max-width: 100%;
+}
+.calendar-container1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-4xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--body-large-size);
+}
+.calendar-container {
+  flex: 1;
+  border-left: 2px solid var(--color-gray-800);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 19px 171px;
+  gap: var(--gap-21xl);
+  min-width: 539px;
+  max-width: 100%;
+}
+.booking-details-page {
+  width: 100%;
+  position: relative;
+  background-color: var(--neutral-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 69.5px var(--padding-52xl);
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+  row-gap: 20px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-gray-500);
+  font-family: var(--small-text);
+}
+
+@media screen and (max-width: 1625px) {
+  .heading-2 {
+    font-size: var(--font-size-13xl);
+    line-height: 24px;
+  }
+
+  .heading-3 {
+    font-size: var(--subheading-size);
+    line-height: 30px;
+  }
+
+  .container3 {
+    padding-top: var(--padding-xl);
+    padding-bottom: 76px;
+    box-sizing: border-box;
+  }
+
+  .heading-3-saturday-june-15-parent {
+    flex: 1;
+  }
+
+  .calendar-navigation {
+    flex-wrap: wrap;
+  }
+
+  .calendar-container {
+    padding-bottom: 72px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .booking-details-page {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .heading-2 {
+    font-size: var(--subheading-size);
+    line-height: 18px;
+  }
+
+  .button-go-to-previous-month-parent {
+    flex-wrap: wrap;
+  }
+
+  .div {
+    font-size: var(--small-text-size);
+    line-height: 19px;
+  }
+
+  .gridcell-button-wednesday {
+    flex: 1;
+  }
+
+  .b {
+    font-size: var(--small-text-size);
+    line-height: 19px;
+  }
+
+  .week-one {
+    flex-wrap: wrap;
+  }
+
+  .table-select-a-day {
+    height: auto;
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-25xl);
+    box-sizing: border-box;
+  }
+
+  .button-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .previous-month-button-containe {
+    gap: var(--gap-16xl);
+  }
+
+  .heading-3 {
+    font-size: var(--body-large-size);
+    line-height: 23px;
+  }
+
+  .venue-open-to {
+    font-size: var(--body-text-size);
+    line-height: 30px;
+  }
+
+  .label {
+    font-size: var(--body-text-size);
+    line-height: 30px;
+  }
+
+  .start-and-end-container {
+    font-size: var(--small-text-size);
+    line-height: 24px;
+  }
+
+  .calendar-navigation {
+    gap: var(--gap-lgi);
+  }
+
+  .calendar-container {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .calendar-container {
+    padding-bottom: 111px;
+    box-sizing: border-box;
+  }
+
+  .booking-details-page {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}

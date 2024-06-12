@@ -1,0 +1,36 @@
+.cateringframe-icon {
+  height: 50px;
+  width: 60px;
+  position: relative;
+  object-fit: cover;
+}
+.cateringframe-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-9xs) 0px var(--padding-10xs);
+}
+.cateringlabel {
+  position: relative;
+  font-weight: 500;
+}
+.cateringcategoryframe3 {
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gray-900);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-xl);
+  gap: var(--gap-11xs);
+  min-width: 318px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--small-text-size);
+  color: var(--color-black);
+  font-family: var(--small-text);
+}
