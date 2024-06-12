@@ -52,47 +52,40 @@ const BookingDetailsPage = () => {
                       <div className="cell-fri">Fri</div>
                       <div className="cell-sat">Sat</div>
                       <div className="gridcell-button-monday-ju" />
-                      <div className="calendar-weeks">
-                        <div className="week-one">
-                          <div className="gridcell-button-wednesday">
+                      <div className="week-three">
+                          <div className="gridcell-button-wednesday7">
+                            <div className="div"></div>
+                          </div>
+                          <div className="gridcell-button-wednesday7">
                             <div className="div">1</div>
                           </div>
-                          <div className="gridcell-button-wednesday">
+                          <div className="gridcell-button-wednesday7">
                             <div className="div">2</div>
                           </div>
-                          <div className="gridcell-button-wednesday2">
-                            <div className="wrapper">
-                              <b className="b">3</b>
-                            </div>
-                          </div>
-                          <div className="gridcell-button-wednesday2">
-                            <div className="wrapper">
-                              <b className="b">4</b>
-                            </div>
-                          </div>
-                          <div className="gridcell-button-wednesday4">
-                            <div className="frame">
-                              <b className="b">5</b>
-                            </div>
-                          </div>
-                          <div className="gridcell-button-wednesday2">
-                            <div className="frame-div">
-                              <b className="b">6</b>
-                            </div>
-                          </div>
+                          <div className="day-buttons-week-two">
+                          <b className="b">3</b>
+                        </div>
+                        <div className="day-buttons-week-two">
+                          <b className="b">4</b>
+                        </div>
+                        <div className="day-buttons-week-two">
+                          <b className="b">5</b>
+                        </div>
+                        <div className="day-buttons-week-two">
+                          <b className="b">6</b>
                         </div>
                       </div>
-                      <div className="week-two">
+                      <div className="week-three">
                         <div className="day-buttons-week-two">
                           <b className="b">7</b>
                         </div>
-                        <div className="day-buttons-week-two1">
+                        <div className="day-buttons-week-two">
                           <b className="b">8</b>
                         </div>
-                        <div className="day-buttons-week-two1">
+                        <div className="day-buttons-week-two">
                           <b className="b">9</b>
                         </div>
-                        <div className="day-buttons-week-two3">
+                        <div className="day-buttons-week-two4">
                           <b className="b">10</b>
                         </div>
                         <div className="day-buttons-week-two4">
@@ -101,11 +94,11 @@ const BookingDetailsPage = () => {
                         <div className="day-buttons-week-two5">
                           <b className="b">12</b>
                         </div>
-                        <div className="gridcell-button-wednesday6">
-                          <div className="wrapper1">
+                        <div className="day-buttons-week-two4">
                             <b className="b">13</b>
-                          </div>
                         </div>
+                        </div>
+                      <div className="week-three">
                         <div className="gridcell-button-wednesday7">
                           <div className="div">14</div>
                         </div>
@@ -127,6 +120,8 @@ const BookingDetailsPage = () => {
                         <div className="gridcell-button-wednesday7">
                           <div className="div">20</div>
                         </div>
+                        </div>
+                      <div className="week-three">
                         <div className="gridcell-button-wednesday7">
                           <div className="div">21</div>
                         </div>
